@@ -1,0 +1,94 @@
+a) Input: Saat meng*ecat tembok, Agung dib_antu oleh Raihan.
+Output: 5
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+#define str_size 100 //Declare the maximum size of the string
+
+void main()
+{
+    char str[str_size];
+    int splch, i;
+    splch = i = 0;
+
+       fgets(str, sizeof str, stdin);	
+
+
+
+    while(str[i]!='\0')
+    {
+        if((str[i]>='a' && str[i]<='z') || (str[i]>='A' && str[i]<='Z'))
+  
+            splch++;
+        }
+
+        i++;
+    }
+
+    printf("Output : %d\n", splch);
+}
+
+b) Input: Berapa u(mur minimal[ untuk !mengurus ktp?
+Output: 3
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+#define str_size 100 //Declare the maximum size of the string
+
+void main()
+{
+    char str[str_size];
+    int splch, i;
+    splch = i = 0;
+
+       fgets(str, sizeof str, stdin);	
+
+
+
+    while(str[i]!='\0')
+    {
+        if((str[i]>='a' && str[i]<='z') || (str[i]>='A' && str[i]<='Z'))
+  
+            splch++;
+        }
+
+        i++;
+    }
+
+    printf("Output : %d\n", splch);
+    
+c)  Input: Masing-masing anak mendap(atkan uang jajan ya=ng be&rbeda.
+Output: 4
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+#define str_size 100 //Declare the maximum size of the string
+
+void main()
+{
+    char str[str_size];
+    int splch, i;
+    splch = i = 0;
+
+       fgets(str, sizeof str, stdin);	
+
+    while(str[i]!='\0')
+    {
+        if((str[i]>='a' && str[i]<='z') || (str[i]>='A' && str[i]<='Z'))
+  
+            splch++;
+        }
+
+        i++;
+    }
+
+    printf("Output : %d\n", splch);
+
